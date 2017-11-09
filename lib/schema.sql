@@ -1,6 +1,6 @@
 CREATE TABLE series (
   id INTEGER PRIMARY KEY,
-  title TEXT,
+  title TEXT, --asdfgasdfasdfa
   author_id INTEGER,
   subgenre_id INTEGER);
 
@@ -22,7 +22,7 @@ CREATE TABLE characters (
   id INTEGER PRIMARY KEY,
   name TEXT,
   motto TEXT,
-  species TEXT,
+  species TEXT,     --sdfgsdfgwdf
   author_id INTEGER,
   series_id INTEGER);
 
